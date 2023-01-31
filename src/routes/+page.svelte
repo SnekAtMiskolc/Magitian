@@ -6,7 +6,7 @@
     
 <main>
     <div id="recent" class="bg-spcx-700 p-4 m-4 rounded-xl border-2 border-spcx-400">
-        <h1 class="font-bold text-white">Recent activity</h1>
+        <h1 class="font-bold text-white text-2xl">Recent activity</h1>
         <hr class="border-spcx-400 my-2">
         <div class="grid">
             <RepoChip></RepoChip>
@@ -15,8 +15,6 @@
         </div>
     </div>
     <div id="timeline" class="">
-        <TimeLineCard><Push></Push></TimeLineCard>
-        <TimeLineCard><Push></Push></TimeLineCard>
         <TimeLineCard><Push></Push></TimeLineCard>
     </div>
 </main>
