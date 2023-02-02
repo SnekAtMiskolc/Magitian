@@ -1,6 +1,17 @@
 <script lang="ts">
     import SideBar from '../../components/owner/SideBar.svelte';
 
+    import Icon from 'svelte-awesome/components/Icon.svelte'
+
+    import globe from 'svelte-awesome/icons/globe';
+    import twitter from 'svelte-awesome/icons/twitter';
+    import linkedin from 'svelte-awesome/icons/linkedin';
+    import linkedinSquare from 'svelte-awesome/icons/linkedinSquare';
+    import youtubePlay from 'svelte-awesome/icons/youtubePlay';
+
+    import chevronUp from 'svelte-awesome/icons/chevronUp';
+    import chevronDown from 'svelte-awesome/icons/chevronDown';
+
 </script>
 
 <main>
@@ -23,6 +34,20 @@
             
                 <hr class="border-spcx-400 my-1">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis aut magni qui cum est eveniet officia porro ipsa? Iusto ab, aspernatur aperiam unde quos nam?</p>
+            </div>
+            <div class="text-white font-semibold bg-spcx-700 p-2 rounded-full flex justify-between">
+                <div class="bg-blue-600 p-2 rounded-full">
+                    <Icon data={globe} scale={1.52}></Icon><span class="ml-1">site</span>
+                </div>
+                <div class="bg-blue-500 p-2 rounded-full">
+                    <Icon data={twitter} scale={1.52}></Icon><span class="ml-1">twitter</span>
+                </div>
+                <div class="bg-blue-800 p-2 rounded-full">
+                    <Icon data={linkedinSquare} scale={1.52}></Icon><span class="ml-1">linkedin</span>
+                </div>
+                <div class="bg-mythic-500 p-2 rounded-full">
+                    <Icon data={youtubePlay} scale={1.52}></Icon><span class="ml-1">YouTube</span>
+                </div>
             </div>
         </div>
     </div>
