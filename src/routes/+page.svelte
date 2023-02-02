@@ -12,9 +12,12 @@
                 <RepoChip></RepoChip>
                 <RepoChip></RepoChip>
                 <RepoChip></RepoChip>
+                <RepoChip></RepoChip>
+                <RepoChip></RepoChip>
+                <RepoChip></RepoChip>
             </RecentActivity>
 
-                <h1 class="m-2 text-teal-500 font-bold text-3xl text-center">Timeline</h1>
+                <h1 class="m-2 text-green-500 font-bold text-3xl text-center">Timeline</h1>
                 <hr class="border-spcx-400">
 
             <div id="timeline" class="">
