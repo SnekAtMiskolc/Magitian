@@ -10,7 +10,7 @@
             <div class="bg-spcx-700 rounded-xl  text-white font-semibold flex">
                 <h1 class="p-2 bg-mythic-400 rounded-l-xl w-26 text-center">21 Follows</h1>
                 <h1 class="p-2 bg-green-600 border-spcx-900 border-l-4 flex-grow text-center">124000 Followers</h1>
-                <button class="border-l-4 border-spcx-900 p-2 bg-blue-600 hover:bg-blue-700 w-28 rounded-r-xl">Follow</button>
+                <button class="border-l-4 border-spcx-900 p-2 bg-blue-600 hover:bg-blue-700 active:bg-blue-600 w-28 rounded-r-xl">Follow</button>
             </div>
             <div class="bg-spcx-700 rounded-xl p-2 text-white font-semibold flex flex-row">
                 <div class="border-r border-spcx-400 mr-2">
