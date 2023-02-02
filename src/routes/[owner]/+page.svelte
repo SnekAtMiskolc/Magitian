@@ -35,11 +35,12 @@
                 <hr class="border-spcx-400 my-1">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis aut magni qui cum est eveniet officia porro ipsa? Iusto ab, aspernatur aperiam unde quos nam?</p>
             </div>
+            <!-- If the user doesn't have one of them then we shall lower it's opacity see: twitter -->
             <div class="text-white font-semibold bg-spcx-700 p-2 rounded-full flex justify-between">
                 <div class="bg-blue-600 p-2 rounded-full">
                     <Icon data={globe} scale={1.52}></Icon><span class="ml-1">site</span>
                 </div>
-                <div class="bg-blue-500 p-2 rounded-full">
+                <div class="bg-blue-500 p-2 rounded-full opacity-20">
                     <Icon data={twitter} scale={1.52}></Icon><span class="ml-1">twitter</span>
                 </div>
                 <div class="bg-blue-800 p-2 rounded-full">
