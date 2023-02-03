@@ -2,4 +2,4 @@
     export let commit_id: string
 </script>
 
-<span><a class="text-blue-600 underline" href="/">{commit_id}</a> Fixed indexing bug in the Insert main function </span>
+<span class="text-zinc-400 text-sm"><a class="text-blue-600 underline mr-1" href="/">{commit_id}</a>Fixed indexing bug in the Insert main function </span>

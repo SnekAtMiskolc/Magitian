@@ -13,7 +13,7 @@
     <div>
         <h2 class="font-bold">2 Commits to master</h2>
         <div class="grid mt-2">
-            <Commit commit_id="12del5g"></Commit>
+            <Commit commit_id="52fm435"></Commit>
             <Commit commit_id="7fjk342"></Commit>
         </div>
     </div>
