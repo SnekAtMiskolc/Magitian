@@ -5,9 +5,11 @@
 
     import globe from 'svelte-awesome/icons/globe';
     import twitter from 'svelte-awesome/icons/twitter';
-    import linkedin from 'svelte-awesome/icons/linkedin';
     import linkedinSquare from 'svelte-awesome/icons/linkedinSquare';
     import youtubePlay from 'svelte-awesome/icons/youtubePlay';
+    import book from 'svelte-awesome/icons/book';
+    import thList from 'svelte-awesome/icons/thList';
+    import bookmark from 'svelte-awesome/icons/bookmark';``
 
     import chevronUp from 'svelte-awesome/icons/chevronUp';
     import chevronDown from 'svelte-awesome/icons/chevronDown';
@@ -63,8 +65,20 @@
 
     <hr class="border-spcx-400">
 
-    <div>
-
+    <!-- tabs -->
+    <div class="flex  justify-evenly text-white font-bold text-center p-2 text-md">
+        <a href="/LinusTorvalds" class="w-1/3 p-2 border-b-2 border-blue-600 mr-3">
+            <Icon data={book} scale={1.5}></Icon>
+            <span>Summary</span>
+        </a>
+        <a href="/LinusTorvalds" class="w-1/3 p-2 border-b-2 border-spcx-600 mr-3">
+            <Icon data={bookmark} scale={1.4}></Icon>
+            <span>Repositories</span>
+        </a>
+        <a href="/LinusTorvalds" class="w-1/3 p-2 border-b-2 border-spcx-600">
+            <Icon data={thList} scale={1.5}></Icon>
+            <span>Lists</span>
+        </a>
     </div>
     <!-- Profile stats -->
     <div class="w-1/2 pt-8 p-4">
