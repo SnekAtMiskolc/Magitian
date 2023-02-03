@@ -3,6 +3,9 @@ module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
     extend: {
+      width: {
+        'sidebar': '28rem',
+      },
       colors: {
         'spcx-1000': '#FFFFFF',
         'spcx-900': '#0F1112',
