@@ -37,18 +37,26 @@
             </div>
             <!-- If the user doesn't have one of them then we shall lower it's opacity see: twitter -->
             <div class="text-white font-semibold bg-spcx-700 p-2 rounded-full flex justify-between">
-                <div class="bg-blue-600 p-2 rounded-full">
-                    <Icon data={globe} scale={1.52}></Icon><span class="ml-1">site</span>
-                </div>
-                <div class="bg-blue-500 p-2 rounded-full opacity-20">
-                    <Icon data={twitter} scale={1.52}></Icon><span class="ml-1">twitter</span>
-                </div>
-                <div class="bg-blue-800 p-2 rounded-full">
-                    <Icon data={linkedinSquare} scale={1.52}></Icon><span class="ml-1">linkedin</span>
-                </div>
-                <div class="bg-mythic-500 p-2 rounded-full">
-                    <Icon data={youtubePlay} scale={1.52}></Icon><span class="ml-1">YouTube</span>
-                </div>
+                <a href="/">
+                    <div class="bg-blue-600 p-2 rounded-full">
+                        <Icon data={globe} scale={1.52}></Icon><span class="ml-1">site</span>
+                    </div>
+                </a>
+                <a href="/">
+                    <div class="bg-blue-500 p-2 rounded-full opacity-20 cursor-not-allowed">
+                        <Icon data={twitter} scale={1.52}></Icon><span class="ml-1">twitter</span>
+                    </div>
+                </a>
+                <a href="/">
+                    <div class="bg-blue-800 p-2 rounded-full cursor-pointer">
+                        <Icon data={linkedinSquare} scale={1.52}></Icon><span class="ml-1">linkedin</span>
+                    </div>
+                </a>
+                <a href="/">
+                    <div class="bg-mythic-500 p-2 rounded-full">
+                        <Icon data={youtubePlay} scale={1.52}></Icon><span class="ml-1">YouTube</span>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
