@@ -31,6 +31,7 @@
                 </div>
                 <h3>Doing some programming!</h3>
             </div>
+            <hr class="border-spcx-400">
             <div class="text-white font-semibold bg-spcx-700 p-2 rounded-xl">
                 <h3 class="text-spcx-400">Bio</h3>
             
@@ -63,23 +64,23 @@
         </div>
     </div>
 
-    <hr class="border-spcx-400">
 
     <!-- tabs -->
-    <div class="flex  justify-evenly text-white font-bold text-center p-2 text-md">
+    <div class="flex  justify-evenly text-white font-bold text-center p-4 text-md">
         <a href="/LinusTorvalds" class="w-1/3 p-2 border-b-2 border-blue-600 mr-3">
             <Icon data={book} scale={1.5}></Icon>
             <span>Summary</span>
         </a>
-        <a href="/LinusTorvalds" class="w-1/3 p-2 border-b-2 border-spcx-600 mr-3">
-            <Icon data={bookmark} scale={1.4}></Icon>
+        <a href="/LinusTorvalds" class="w-1/3 p-2 border-b-0 border-spcx-600 mr-3 hover:bg-spcx-600 rounded-xl">
+            <Icon data={bookmark} scale={1}></Icon>
             <span>Repositories</span>
         </a>
-        <a href="/LinusTorvalds" class="w-1/3 p-2 border-b-2 border-spcx-600">
+        <a href="/LinusTorvalds" class="w-1/3 p-2 border-b-0 border-spcx-600 hover:bg-spcx-600 rounded-xl">
             <Icon data={thList} scale={1.5}></Icon>
             <span>Lists</span>
         </a>
     </div>
+    <hr class="border-spcx-400">
     <!-- Profile stats -->
     <div class="w-1/2 pt-8 p-4">
 
