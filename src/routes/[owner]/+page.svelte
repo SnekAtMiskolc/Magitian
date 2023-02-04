@@ -14,9 +14,10 @@
 </script>
 
 <main>
-    <div class="flex md:flex-row">
-    <div class="mx-4 mb-4 sm:w-sidebar sm:mx-auto">
-    <SideBar></SideBar>
+    <div class="flex flex-col md:flex-row ">
+
+    <div class="mx-4 mb-4 sm:w-sidebar sm:mx-auto md:mx-0 md:mr-4 md:w-96 md:border-r border-spcx-400 md:p-4">
+        <SideBar></SideBar>
         <div class="grid space-y-3">
             <div class="bg-spcx-700 rounded-xl p-2 text-white font-semibold flex flex-row">
                 <div class="border-r border-spcx-400 mr-2">
@@ -57,27 +58,23 @@
         </div>
     </div>
 
+    <div class="md:w-4/5 md:mr-4">
+        <!-- tabs -->
+        <div class="flex  justify-evenly text-white font-bold text-center p-4 text-md">
+            <a href="/LinusTorvalds" class="w-1/3 p-2 border-b-2 border-blue-600 mr-3">
+                <Icon data={book} scale={1.5}></Icon>
+                <span>Summary</span>
+            </a>
+            <a href="/LinusTorvalds" class="w-1/3 p-2 border-b-0 border-spcx-600 mr-3 hover:bg-spcx-600 rounded-xl">
+                <Icon data={bookmark} scale={1}></Icon>
+                <span>Repositories</span>
+            </a>
+            <a href="/LinusTorvalds" class="w-1/3 p-2 border-b-0 border-spcx-600 hover:bg-spcx-600 rounded-xl">
+                <Icon data={thList} scale={1.5}></Icon>
+                <span>Lists</span>
+            </a>
+        </div>
+        <hr class="border-spcx-400">
     </div>
-
-
-    <!-- tabs -->
-    <div class="flex  justify-evenly text-white font-bold text-center p-4 text-md">
-        <a href="/LinusTorvalds" class="w-1/3 p-2 border-b-2 border-blue-600 mr-3">
-            <Icon data={book} scale={1.5}></Icon>
-            <span>Summary</span>
-        </a>
-        <a href="/LinusTorvalds" class="w-1/3 p-2 border-b-0 border-spcx-600 mr-3 hover:bg-spcx-600 rounded-xl">
-            <Icon data={bookmark} scale={1}></Icon>
-            <span>Repositories</span>
-        </a>
-        <a href="/LinusTorvalds" class="w-1/3 p-2 border-b-0 border-spcx-600 hover:bg-spcx-600 rounded-xl">
-            <Icon data={thList} scale={1.5}></Icon>
-            <span>Lists</span>
-        </a>
-    </div>
-    <hr class="border-spcx-400">
-    <!-- Profile stats -->
-    <div class="w-1/2 pt-8 p-4">
-
     </div>
 </main>

@@ -16,8 +16,8 @@
     </div>
 
     <div class="rounded-xl  text-white font-semibold flex justify-center items-center md:jusify-between">
-        <span class="mr-3 ">42 Follows</span>
-        <span class="mr-3 ">12000 Followers</span>
+        <span class="mr-3 hidden md:block ">42 Follows</span>
+        <span class="mr-3 hidden md:block">12000 Followers</span>
         <Button>Follow</Button>
     </div>
 </div>
