@@ -6,9 +6,10 @@
     <!-- Sidebar / profile view -->
     <div class="flex md:flex-col md:justify-center md:items-center md:mb-4">
         <!-- Profile picture -->
-        <img class="rounded-full w-24 mr-2 bg-center md:w-52" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+        <img class="rounded-full w-24 mr-2 bg-center md:w-52 bg-gradient-to-r p-1 from-mythic-500 to-blue-600" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+        <div class="bg-spcx-600 absolute left-60 top-28 z-10 mt-2 origin-top-right p-5 rounded-full hidden md:block"></div>
         <div class="flex items-center">
-            <div class="flex flex-col">
+            <div class="flex flex-col md:text-center md:mt-2">
                 <h1 class="text-white text-2xl font-bold">Linus Torvalds</h1>
                 <h2 class="text-spcx-600 font-semibold">LinusTorvalds</h2>
             </div>
@@ -16,8 +17,8 @@
     </div>
 
     <div class="rounded-xl  text-white font-semibold flex justify-center items-center md:jusify-between">
-        <span class="mr-3 hidden md:block ">42 Follows</span>
-        <span class="mr-3 hidden md:block">12000 Followers</span>
+        <span class="mr-3 hidden md:block text-sm">42 Follows</span>
+        <span class="mr-3 hidden md:block text-sm">12000 Followers</span>
         <Button>Follow</Button>
     </div>
 </div>
