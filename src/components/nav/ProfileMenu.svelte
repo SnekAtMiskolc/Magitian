@@ -13,13 +13,13 @@
     <!-- Active: "bg-gray-100", Not Active: "" -->
     <span class="font-bold text-lg sm:text-md block px-4 py-2 text-white " role="menuitem" tabindex="-1" id="user-menu-item-0">👋 Hi <span class="text-blue-500">Jerry Smith</span>!</span>
     <hr class="border-spcx-400 my-2">
-    <a href="/" class="block px-4 text-md sm:text-md py-2 hover:bg-blue-600  text-white " role="menuitem" tabindex="-1" id="user-menu-item-0">Your Profile</a>
-    <a href="/" class="block px-4 text-md sm:text-md py-2 hover:bg-blue-600  text-white " role="menuitem" tabindex="-1" id="user-menu-item-0">Your Repositories</a>
-    <a href="/" class="block px-4 text-md sm:text-md py-2 hover:bg-blue-600  text-white " role="menuitem" tabindex="-1" id="user-menu-item-0">Your Organizations</a>
-    <a href="/" class="block px-4 text-md sm:text-md py-2 hover:bg-blue-600  text-white " role="menuitem" tabindex="-1" id="user-menu-item-0">Your Supporters</a>
+    <a href="/" class="block px-4 text-sm sm:text-md py-1 hover:bg-blue-600  text-white " role="menuitem" tabindex="-1" id="user-menu-item-0">Your Profile</a>
+    <a href="/" class="block px-4 text-sm sm:text-md py-1 hover:bg-blue-600  text-white " role="menuitem" tabindex="-1" id="user-menu-item-0">Your Repositories</a>
+    <a href="/" class="block px-4 text-sm sm:text-md py-1 hover:bg-blue-600  text-white " role="menuitem" tabindex="-1" id="user-menu-item-0">Your Organizations</a>
+    <a href="/" class="block px-4 text-sm sm:text-md py-1 hover:bg-blue-600  text-white " role="menuitem" tabindex="-1" id="user-menu-item-0">Your Supporters</a>
     <hr class="border-spcx-400 my-2">
-    <a href="/" class="block px-4 py-2 text-md sm:text-md hover:bg-blue-600  text-white" role="menuitem" tabindex="-1" id="user-menu-item-1">Deployment</a>
-    <a href="/" class="block px-4 py-2 text-md sm:text-md hover:bg-blue-600  text-white" role="menuitem" tabindex="-1" id="user-menu-item-1">Settings</a>
+    <a href="/" class="block px-4 py-1 text-sm sm:text-md hover:bg-blue-600  text-white" role="menuitem" tabindex="-1" id="user-menu-item-1">Deployment</a>
+    <a href="/" class="block px-4 py-1 text-sm sm:text-md hover:bg-blue-600  text-white" role="menuitem" tabindex="-1" id="user-menu-item-1">Settings</a>
     <hr class="border-spcx-400 my-2">
-    <a href="/" class="font-bold block px-4 py-2 text-md sm:text-md hover:bg-mythic-400 hover:text-spcx-700  text-mythic-400" role="menuitem" tabindex="-1" id="user-menu-item-2">Sign out</a>
+    <a href="/" class="font-bold block px-4 py-1 text-sm sm:text-md hover:bg-mythic-400 hover:text-spcx-700  text-mythic-400" role="menuitem" tabindex="-1" id="user-menu-item-2">Sign out</a>
 </div>
