@@ -21,16 +21,16 @@
         <div class="grid space-y-3">
             <div class="bg-spcx-700 rounded-xl p-2 text-white font-semibold flex flex-row">
                 <div class="border-r border-spcx-400 mr-2">
-                    <h3 class="mr-1">🐧</h3>
+                    <h3 class="mr-1 text-sm">🐧</h3>
                 </div>
-                <h3>Doing some programming!</h3>
+                <h3 class="text-sm">Doing some programming!</h3>
             </div>
             <hr class="border-spcx-400">
             <div class="text-white font-semibold bg-spcx-700 p-2 rounded-xl">
                 <h3 class="text-spcx-400">Bio</h3>
             
                 <hr class="border-spcx-400 my-1">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis aut magni qui cum est eveniet officia porro ipsa? Iusto ab, aspernatur aperiam unde quos nam?</p>
+                <p class="text-sm font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis aut magni qui cum est eveniet officia porro ipsa? Iusto ab, aspernatur aperiam unde quos nam?</p>
             </div>
             <!-- If the user doesn't have one of them then we shall lower it's opacity see: twitter -->
             <div class="text-white font-semibold bg-spcx-700 p-2 rounded-full flex justify-between">
