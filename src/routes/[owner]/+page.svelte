@@ -60,16 +60,20 @@
 
     <div class="md:w-4/5 md:mr-4">
         <!-- tabs -->
-        <div class="flex  justify-evenly text-white font-bold text-center p-4 text-md">
-            <a href="/LinusTorvalds" class="w-1/3 p-2 border-b-2 border-blue-600 mr-3">
+        <div class="flex  justify-evenly text-white font-bold text-center p-4 text-md overflow-x-scroll">
+            <a href="/LinusTorvalds" class="p-2 border-b-2 border-blue-600 mr-3 lg:w-1/4">
                 <Icon data={book} scale={1.5}></Icon>
                 <span>Summary</span>
             </a>
-            <a href="/LinusTorvalds" class="w-1/3 p-2 border-b-0 border-spcx-600 mr-3 hover:bg-spcx-600 rounded-xl">
+            <a href="/LinusTorvalds" class="p-2 border-b-0 border-spcx-600 mr-3 hover:bg-spcx-600 rounded-xl lg:w-1/4">
                 <Icon data={bookmark} scale={1}></Icon>
                 <span>Repositories</span>
             </a>
-            <a href="/LinusTorvalds" class="w-1/3 p-2 border-b-0 border-spcx-600 hover:bg-spcx-600 rounded-xl">
+            <a href="/LinusTorvalds" class="p-2 border-b-0 border-spcx-600 hover:bg-spcx-600 rounded-xl lg:w-1/4">
+                <Icon data={thList} scale={1.5}></Icon>
+                <span>Lists</span>
+            </a>
+            <a href="/LinusTorvalds" class="p-2 border-b-0 border-spcx-600 hover:bg-spcx-600 rounded-xl lg:w-1/4">
                 <Icon data={thList} scale={1.5}></Icon>
                 <span>Lists</span>
             </a>
