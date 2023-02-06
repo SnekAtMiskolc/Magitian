@@ -29,6 +29,8 @@
             activeTabValue = 2;
         } else if (tab == "lists") {
             activeTabValue = 3;
+        } else {
+            activeTabValue = 1;
         }
     })
 
