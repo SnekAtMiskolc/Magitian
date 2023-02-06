@@ -60,7 +60,8 @@
 
     <div class="md:w-4/5 md:mr-4">
         <!-- tabs -->
-        <div class="flex  justify-evenly text-white font-bold text-center p-4 text-md overflow-x-scroll">
+        <!-- If we are on mobile just remove the text and just use icons -->
+        <div class="flex justify-evenly text-white font-bold text-center p-4 text-md overflow-x-scroll w-full">
             <a href="/LinusTorvalds" class="p-2 border-b-2 border-blue-600 mr-3 lg:w-1/4">
                 <Icon data={book} scale={1.5}></Icon>
                 <span>Summary</span>
