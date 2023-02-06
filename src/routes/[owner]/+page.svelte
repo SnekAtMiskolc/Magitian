@@ -42,9 +42,9 @@
 </script>
 
 <main>
-    <div class="flex flex-col md:flex-row ">
+    <div class="flex flex-col md:flex-row lg:items-center lg:justify-center">
 
-    <div class="mx-4 mb-4 sm:w-sidebar sm:mx-auto md:mx-0 md:mr-4 md:w-96 md:border-r border-spcx-400 md:p-4">
+    <div class="mx-4 mb-4 sm:w-sidebar sm:mx-auto md:mx-0 md:mr-4 md:mt-4 md:w-96 md:border-r border-spcx-400 md:p-4 md:h-screen">
         <SideBar></SideBar>
         <div class="grid space-y-3">
             <div class="bg-spcx-700 rounded-xl p-2 text-white font-semibold flex flex-row">
@@ -86,10 +86,10 @@
         </div>
     </div>
 
-    <div class="md:w-4/5 md:mr-4">
+    <div class="md:w-4/5 md:mr-4 md:h-screen">
         <!-- tabs -->
         <!-- If we are on mobile just remove the text and just use icons -->
-        <Tab divClass="mt-4 mx-4 md:mx-0">
+        <Tab divClass="mt-4 lg:mt-0 mx-4 md:mx-0">
             <TabHead>
                 <TabHeadOption id={1} on:click={handleClick(1)}>
                     <a href="/LinusTorvalds?tab=summary" class="p-2 border-b-2 border-blue-600 mr-3 lg:w-1/4">
