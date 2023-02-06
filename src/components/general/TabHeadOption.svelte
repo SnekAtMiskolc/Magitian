@@ -1,10 +1,9 @@
 <script lang="ts">
   export let id: number;
-  export let buttonClass = ''
+  export let buttonClass = 'text-white'
   export let liClass = 'mr-2'
 </script>
 
-<li class={liClass} role="presentation">
   <button
     on:click
     class={buttonClass}
@@ -13,4 +12,3 @@
     role="tab">
     <slot />
   </button>
-</li>
