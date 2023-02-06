@@ -87,59 +87,40 @@
     <div class="md:w-4/5 md:mr-4">
         <!-- tabs -->
         <!-- If we are on mobile just remove the text and just use icons -->
-        <!--div class="flex justify-evenly text-white font-bold text-center p-4 text-md overflow-x-scroll w-full">
-            <a href="/LinusTorvalds" class="p-2 border-b-2 border-blue-600 mr-3 lg:w-1/4">
-                <Icon data={book} scale={1.5}></Icon>
-                <span class="ml-1">Summary</span>
-            </a>
-            <a href="/LinusTorvalds" class="p-2 border-b-0 border-spcx-600 mr-3 hover:bg-spcx-600 rounded-xl lg:w-1/4">
-                <Icon data={bookmark} scale={1.5}></Icon>
-                <span class="ml-1">Repositories</span>
-            </a>
-            <a href="/LinusTorvalds" class="p-2 border-b-0 border-spcx-600 hover:bg-spcx-600 rounded-xl lg:w-1/4">
-                <Icon data={thList} scale={1.5}></Icon>
-                <span class="ml-1">Lists</span>
-            </a>
-            <a href="/LinusTorvalds" class="p-2 border-b-0 border-spcx-600 hover:bg-spcx-600 rounded-xl lg:w-1/4">
-                <Icon data={thList} scale={1.5}></Icon>
-                <span class="ml-1">Lists</span>
-            </a>
-        </div>
-        <hr class="border-spcx-400"-->
-    <Tab divClass="mt-4">
-        <TabHead>
-            <TabHeadOption id={1} on:click={handleClick(1)}>
-                <a href="/LinusTorvalds?tab=summary" class="p-2 border-b-2 border-blue-600 mr-3 lg:w-1/4">
-                    <Icon data={book} scale={1.5}></Icon>
-                    <span class="ml-1">Summary</span>
-                </a>
-            </TabHeadOption>
-            <TabHeadOption id={2} on:click={handleClick(2)}>
-                <a href="/LinusTorvalds?tab=repositories" class="p-2 border-b-0 border-spcx-600 mr-3 hover:bg-spcx-600 rounded-xl">
-                    <Icon data={bookmark} scale={1.5}></Icon>
-                    <span class="ml-1">Repositories</span>
-                </a>
-            </TabHeadOption>
-            <TabHeadOption id={3} on:click={handleClick(3)}>
-                <a href="/LinusTorvalds?tab=lists" class="p-2 border-b-0 border-spcx-600 hover:bg-spcx-600 rounded-xl lg:w-1/4">
-                    <Icon data={thList} scale={1.5}></Icon>
-                    <span class="ml-1">Lists</span>
-                </a>
-            </TabHeadOption>
-            <TabHeadOption id={4} on:click={handleClick(4)}>
-                <a href="/LinusTorvalds?tab=lists" class="p-2 border-b-0 border-spcx-600 hover:bg-spcx-600 rounded-xl lg:w-1/4">
-                    <Icon data={thList} scale={1.5}></Icon>
-                    <span class="ml-1">Lists</span>
-                </a>
-            </TabHeadOption>
-        </TabHead>
-        <TabPage id={1} {activeTabValue}>
-            <h1>Tab 1 content</h1>
-        </TabPage>
-        <TabPage id={2} {activeTabValue}>Tab 2 content</TabPage>
-        <TabPage id={3} {activeTabValue}>Tab 3 content</TabPage>
-        <TabPage id={4} {activeTabValue}>Tab 3 content</TabPage>
-    </Tab>
+        <Tab divClass="mt-4">
+            <TabHead>
+                <TabHeadOption id={1} on:click={handleClick(1)}>
+                    <a href="/LinusTorvalds?tab=summary" class="p-2 border-b-2 border-blue-600 mr-3 lg:w-1/4">
+                        <Icon data={book} scale={1.5}></Icon>
+                        <span class="ml-1">Summary</span>
+                    </a>
+                </TabHeadOption>
+                <TabHeadOption id={2} on:click={handleClick(2)}>
+                    <a href="/LinusTorvalds?tab=repositories" class="p-2 border-b-0 border-spcx-600 mr-3 hover:bg-spcx-600 rounded-xl">
+                        <Icon data={bookmark} scale={1.5}></Icon>
+                        <span class="ml-1">Repositories</span>
+                    </a>
+                </TabHeadOption>
+                <TabHeadOption id={3} on:click={handleClick(3)}>
+                    <a href="/LinusTorvalds?tab=lists" class="p-2 border-b-0 border-spcx-600 hover:bg-spcx-600 rounded-xl lg:w-1/4">
+                        <Icon data={thList} scale={1.5}></Icon>
+                        <span class="ml-1">Lists</span>
+                    </a>
+                </TabHeadOption>
+                <TabHeadOption id={4} on:click={handleClick(4)}>
+                    <a href="/LinusTorvalds?tab=lists" class="p-2 border-b-0 border-spcx-600 hover:bg-spcx-600 rounded-xl lg:w-1/4">
+                        <Icon data={thList} scale={1.5}></Icon>
+                        <span class="ml-1">Lists</span>
+                    </a>
+                </TabHeadOption>
+            </TabHead>
+            <TabPage id={1} {activeTabValue}>
+                <h1>Tab 1 content</h1>
+            </TabPage>
+            <TabPage id={2} {activeTabValue}>Tab 2 content</TabPage>
+            <TabPage id={3} {activeTabValue}>Tab 3 content</TabPage>
+            <TabPage id={4} {activeTabValue}>Tab 3 content</TabPage>
+        </Tab>
     </div>
     </div>
 
