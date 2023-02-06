@@ -89,7 +89,7 @@
     <div class="md:w-4/5 md:mr-4">
         <!-- tabs -->
         <!-- If we are on mobile just remove the text and just use icons -->
-        <Tab divClass="mt-4">
+        <Tab divClass="mt-4 mx-4 md:mx-0">
             <TabHead>
                 <TabHeadOption id={1} on:click={handleClick(1)}>
                     <a href="/LinusTorvalds?tab=summary" class="p-2 border-b-2 border-blue-600 mr-3 lg:w-1/4">
