@@ -117,7 +117,9 @@
                 </TabHeadOption>
             </TabHead>
             <TabPage id={1} {activeTabValue}>
-                <h1>Tab 1 content</h1>
+                <div class="bg-spcx-900 border border-spcx-400 p-4 rounded-xl">
+                    <h1>Tab 1 content</h1>
+                </div>
             </TabPage>
             <TabPage id={2} {activeTabValue}>Tab 2 content</TabPage>
             <TabPage id={3} {activeTabValue}>Tab 3 content</TabPage>
