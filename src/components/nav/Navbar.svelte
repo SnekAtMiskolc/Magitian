@@ -50,13 +50,13 @@
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-              <a href="/" class="bg-spcx-800  text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Dashboard</a>
+              <a href="/" class="bg-spcx-800 text-white px-3 py-2 rounded-md text-sm font-bold" aria-current="page">Home</a>
   
-              <a href="/" class="text-gray-300 hover:bg-spcx-600 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Team</a>
+              <a href="/" class="text-gray-300 hover:bg-spcx-600 hover:text-white px-3 py-2 rounded-md text-sm font-bold">Pull Requests</a>
   
-              <a href="/" class="text-gray-300 hover:bg-spcx-600 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</a>
-  
-              <a href="/" class="text-gray-300 hover:bg-spcx-600 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Calendar</a>
+              <a href="/" class="text-gray-300 hover:bg-spcx-600 hover:text-white px-3 py-2 rounded-md text-sm font-bold">Issues</a>
+ 
+              <a href="/" class="text-gray-300 hover:bg-spcx-600 hover:text-white px-3 py-2 rounded-md text-sm font-bold">Discover</a>
             </div>
           </div>
         </div>
