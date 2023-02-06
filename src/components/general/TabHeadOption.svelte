@@ -1,7 +1,6 @@
 <script lang="ts">
   export let id: number;
   export let buttonClass = 'text-white'
-  export let liClass = 'mr-2'
 </script>
 
   <button
