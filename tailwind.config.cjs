@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       width: {
         'sidebar': '28rem',
+        'pm': '36rem',
       },
       colors: {
         'spcx-1000': '#FFFFFF',
