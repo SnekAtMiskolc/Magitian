@@ -1,7 +1,7 @@
 <script lang="ts">
   export let activeTabValue: number;
   export let id: number;
-  export let contentDivClass = 'p-4 bg-gray-50 rounded-lg dark:bg-gray-300';
+  export let contentDivClass = 'p-4 bg-spcx-900 rounded-lg border border-spcx-400 text-white';
 </script>
 
 {#if activeTabValue === id}
