@@ -19,7 +19,7 @@
 	import { page } from '$app/stores';
 	import { onMount } from 'svelte';
 
-    const tab = $page.params.tab || "repositories";
+    const tab = $page.params.tab || "summary";
 
     let activeTabValue: number;
     onMount(() => {
