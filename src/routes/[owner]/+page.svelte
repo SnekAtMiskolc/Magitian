@@ -3,6 +3,9 @@
 
     import Icon from 'svelte-awesome/components/Icon.svelte'
 
+    import link from 'svelte-awesome/icons/link';
+    import mapMarker from 'svelte-awesome/icons/mapMarker';
+
     // Icons
     import globe from 'svelte-awesome/icons/globe';
     import twitter from 'svelte-awesome/icons/twitter';
@@ -60,29 +63,11 @@
                 <hr class="border-spcx-400 my-1">
                 <p class="text-sm font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis aut magni qui cum est eveniet officia porro ipsa? Iusto ab, aspernatur aperiam unde quos nam?</p>
             </div>
-            <!-- If the user doesn't have one of them then we shall lower it's opacity see: twitter -->
-            <div class="text-white font-semibold bg-spcx-700 p-2 rounded-full flex justify-between">
-                <a href="/">
-                    <div class="bg-blue-600 p-2 rounded-full w-full">
-                        <Icon data={globe} scale={1.52}></Icon><span class="ml-1">site</span>
-                    </div>
-                </a>
-                <a href="/">
-                    <div class="bg-blue-500 p-2 rounded-full opacity-20 cursor-not-allowed w-full">
-                        <Icon data={twitter} scale={1.52}></Icon><span class="ml-1">twitter</span>
-                    </div>
-                </a>
-                <a href="/">
-                    <div class="bg-blue-800 p-2 rounded-full cursor-pointer w-full">
-                        <Icon data={linkedinSquare} scale={1.52}></Icon><span class="ml-1">linkedin</span>
-                    </div>
-                </a>
-                <a href="/" class="">
-                    <div class="bg-mythic-500 p-2 rounded-full w-full">
-                        <Icon data={youtubePlay} scale={1.52}></Icon><span class="ml-1">YouTube</span>
-                    </div>
-                </a>
-            </div>
+            <!-- Socials list -->
+            <ul class="text-white text-xl">
+                <li><Icon data={mapMarker} scale={1.3} class="text-red-500"></Icon> <span>Finland</span> . <span> Helsinki</span></li>
+                <li><Icon data={link} scale={1.3} class="text-blue-600"></Icon> <a href="https://kernel.org" class="text-blue-500 underline">https://kernel.org</a></li>
+            </ul>
         </div>
     </div>
 
