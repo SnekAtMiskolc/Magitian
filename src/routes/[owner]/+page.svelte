@@ -45,9 +45,9 @@
 </script>
 
 <main>
-    <div class="flex flex-col md:flex-row md:items-center md:justify-center">
+    <div class="flex flex-col md:flex-row md:justify-center">
 
-    <div class="mx-4 mb-4 sm:w-sidebar md:mr-0 md:mr-4 sm:mx-0 md:mt-4 md:p-4 md:h-screen">
+    <div class="mx-4 mb-4 sm:w-sidebar md:mr-0 md:mr-4 sm:mx-0 md:mt-4 md:p-4 ">
         <SideBar></SideBar>
         <div class="grid space-y-3">
             <div class="bg-spcx-700 rounded-xl p-2 text-white font-semibold flex flex-row">
@@ -71,7 +71,7 @@
         </div>
     </div>
 
-    <div class="md:w-4/5 md:mr-4 md:h-screen 2xl:w-2/5">
+    <div class="md:w-4/5 md:mr-4 2xl:w-2/5">
         <!-- tabs -->
         <!-- If we are on mobile just remove the text and just use icons -->
         <Tab divClass="mt-4 mx-4 md:mx-0">
@@ -102,7 +102,7 @@
                 </TabHeadOption>
             </TabHead>
             <TabPage id={1} {activeTabValue}>
-                <div class="bg-spcx-800 border border-spcx-400 p-4 rounded-xl">
+                <div class="bg-spcx-900 border border-spcx-400 p-4 rounded-xl">
                     <h1>Tab 1 content</h1>
 
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam sed velit tempore repudiandae veniam nobis porro reprehenderit corporis minus voluptatibus! Iusto ratione ipsa, assumenda incidunt quas aliquid praesentium necessitatibus neque!</p>
