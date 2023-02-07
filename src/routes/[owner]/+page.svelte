@@ -102,7 +102,7 @@
                 </TabHeadOption>
             </TabHead>
             <TabPage id={1} {activeTabValue}>
-                <div class="bg-spcx-900 border border-spcx-400 p-4 rounded-xl">
+                <div class="bg-spcx-800 border border-spcx-400 p-4 rounded-xl">
                     <h1>Tab 1 content</h1>
 
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam sed velit tempore repudiandae veniam nobis porro reprehenderit corporis minus voluptatibus! Iusto ratione ipsa, assumenda incidunt quas aliquid praesentium necessitatibus neque!</p>
