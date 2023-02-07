@@ -3,6 +3,10 @@ module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
     extend: {
+      height: {
+        'sidebar': '50rem',
+        'summ': '50rem'
+      },
       width: {
         'sidebar': '27rem',
         'pm': '36rem',
