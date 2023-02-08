@@ -1,6 +1,5 @@
 <script>
   export let divClass = ''
-  export let ulClass = 'flex flex-row'
 </script>
 
 <div class={divClass}>
