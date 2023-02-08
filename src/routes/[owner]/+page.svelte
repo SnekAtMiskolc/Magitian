@@ -15,10 +15,10 @@
     import thList from 'svelte-awesome/icons/thList';
     import bookmark from 'svelte-awesome/icons/bookmark';``
 
-    import Tab from '../../components/general/Tab.svelte';
-    import TabHead from '../../components/general/TabHead.svelte';
-    import TabHeadOption from '../../components/general/TabHeadOption.svelte';
-    import TabPage from '../../components/general/TabPage.svelte';
+    import Tab from '../../components/general/tab/Tab.svelte';
+    import TabHead from '../../components/general/tab/TabHead.svelte';
+    import TabHeadOption from '../../components/general/tab/TabHeadOption.svelte';
+    import TabPage from '../../components/general/tab/TabPage.svelte';
 	import { page } from '$app/stores';
 	import { onMount } from 'svelte';
 
