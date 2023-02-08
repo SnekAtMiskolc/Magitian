@@ -1,9 +1,9 @@
 <footer class="p-4 bg-white sm:p-6 dark:bg-spcx-900">
     <div class="md:flex md:justify-between">
         <div class="mb-6 md:mb-0">
-            <a href="https://github.com/SnekAtMiskolc/Magitian" class="flex items-center">
-                <h2 class="text-white text-5xl font-bold mr-2">M</h2>
-                <span class="self-center text-3xl font-semibold whitespace-nowrap dark:text-white grad-text">Magitian</span>
+            <a href="https://github.com/SnekAtMiskolc/Magitian" class="flex">
+                <h2 class="text-white text-5xl font-bold">M</h2>
+                <span class="self-center text-3xl font-semibold whitespace-nowrap dark:text-white grad-text">agitian</span>
             </a>
         </div>
         <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
