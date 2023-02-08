@@ -1,14 +1,36 @@
 <script lang="ts">
+	import { browser } from '$app/environment';
     import { fade, slide } from 'svelte/transition';
 
-    let a_place_for_your_code = false;
+      let scrollPosition = 0;
 
-    const handleScroll = () => {
-        a_place_for_your_code = window.scrollY > 3;
-    };
+    if (browser) {
+
+        window.addEventListener("scroll", () => {
+            scrollPosition = window.scrollY;
+            console.log(scrollPosition)
+        });
+    }
+
+    let divBase = "opacity-40"
+    let style = divBase;
+    let divClass = "opacity-100";
+
+    $: if(scrollPosition > 100) {
+        style = divClass
+        console.log(style)
+    } else {
+        style = divBase
+    }
 </script>
+
 <h1 class="text-8xl text-white">magitian</h1>
-{#if a_place_for_your_code}
-    <h1 in:fade>Animate on Scroll</h1>
-    <p in:slide>This text is sliding in on scroll!</p>
-{/if}
+<h1 class="text-8xl text-white">magitian</h1>
+
+<hr class="my-4 border-spcx-400">
+
+<div class="{style} h-sidebar transform-all duration-500 bg-blue-600 m-4 rounded-3xl p-4 text-white font-semibold">
+    <h1 class="text-white text-4xl font-bold">Magical code</h1>
+    <hr class="my-2">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed consequuntur earum quos possimus officiis, quae nulla suscipit voluptate! Quo, maiores deleniti id officia praesentium at impedit vitae dolorem accusamus ipsam?</p>
+</div>
