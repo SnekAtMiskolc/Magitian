@@ -8,19 +8,23 @@
 <main>
     <div class="flex justify-center">
         <div class="w-full sm:w-4/5 md:w-2/3 lg:w-2/4 xl:w-2/4">
-            <RecentActivity>
-                <RepoChip></RepoChip>
-                <RepoChip></RepoChip>
-                <RepoChip></RepoChip>
-                <RepoChip></RepoChip>
-                <RepoChip></RepoChip>
-                <RepoChip></RepoChip>
-            </RecentActivity>
+            <!-- Sidebar -->
+            <div>
+                <RecentActivity>
+                    <RepoChip></RepoChip>
+                    <RepoChip></RepoChip>
+                    <RepoChip></RepoChip>
+                    <RepoChip></RepoChip>
+                    <RepoChip></RepoChip>
+                    <RepoChip></RepoChip>
+                </RecentActivity>
+            </div>
 
                 <h1 class="m-2 text-green-500 font-bold text-3xl text-center">Timeline</h1>
                 <hr class="border-spcx-400">
 
-            <div id="timeline" class="">
+            <!-- Timeline -->
+            <div class="">
                 <TimeLineCard><Push></Push></TimeLineCard>
                 <TimeLineCard><Push></Push></TimeLineCard>
                 <TimeLineCard><Push></Push></TimeLineCard>
