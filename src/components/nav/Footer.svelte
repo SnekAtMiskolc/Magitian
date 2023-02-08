@@ -3,7 +3,7 @@
         <div class="mb-6 md:mb-0">
             <a href="https://github.com/SnekAtMiskolc/Magitian" class="flex items-center">
                 <h2 class="text-white text-5xl font-bold mr-2">M</h2>
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Magitian</span>
+                <span class="self-center text-3xl font-semibold whitespace-nowrap dark:text-white grad-text">Magitian</span>
             </a>
         </div>
         <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -58,3 +58,11 @@
         </div>
     </div>
 </footer>
+
+<style>
+    .grad-text {
+        background: -webkit-linear-gradient(#006cff, #cc1111);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+</style>
