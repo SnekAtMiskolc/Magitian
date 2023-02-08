@@ -56,7 +56,7 @@
   
               <a href="/" class="text-gray-300 hover:bg-spcx-600 hover:text-white px-3 py-2 rounded-md text-sm font-bold">Issues</a>
  
-              <a href="/" class="text-gray-300 hover:bg-spcx-600 hover:text-white px-3 py-2 rounded-md text-sm font-bold">Discover</a>
+              <a href="/discover" class="text-gray-300 hover:bg-spcx-600 hover:text-white px-3 py-2 rounded-md text-sm font-bold">Discover</a>
             </div>
           </div>
         </div>
