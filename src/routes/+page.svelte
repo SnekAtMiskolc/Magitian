@@ -3,6 +3,7 @@
     import Push from "../components/timeline/content/Push.svelte";
     import RepoChip from "../components/chips/RepoChip.svelte";
     import RecentActivity from "../components/timeline/RecentActivity.svelte";
+    import Star from "../components/timeline/content/Star.svelte";
 </script>
     
 <main>
@@ -26,6 +27,7 @@
             <!-- Timeline -->
             <div class="">
                 <TimeLineCard><Push></Push></TimeLineCard>
+                <TimeLineCard><Star></Star></TimeLineCard>
                 <TimeLineCard><Push></Push></TimeLineCard>
                 <TimeLineCard><Push></Push></TimeLineCard>
                 <TimeLineCard><Push></Push></TimeLineCard>
