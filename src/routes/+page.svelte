@@ -5,6 +5,7 @@
     import RecentActivity from "../components/timeline/RecentActivity.svelte";
     import Star from "../components/timeline/content/Star.svelte";
     import Accepted from "../components/timeline/content/Accepted.svelte";
+    import Dialog from "../components/general/Dialog.svelte";
 </script>
     
 <main>
@@ -38,5 +39,6 @@
             </div>
         </div>
 
+        <Dialog></Dialog>
     </div>
 </main>
