@@ -21,12 +21,12 @@
                 Merged dev-x86 into master
             </div>
             <Code>
-                <Tree></Tree>
+                <Tree dir_name="test"></Tree>
                 <Blob filename="test.c"></Blob>
                 <Blob filename="main.rs"></Blob>
-                <Tree></Tree>
-                <Tree></Tree>
-                <Tree></Tree>
+                <Tree dir_name="hello"></Tree>
+                <Tree dir_name="configs"></Tree>
+                <Tree dir_name="src"></Tree>
             </Code>
         </div>
     </div>
