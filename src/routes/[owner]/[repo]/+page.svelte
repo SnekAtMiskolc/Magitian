@@ -16,7 +16,7 @@
     <!-- Code section -->
     <div class="bg-spcx-700 m-4 p-4 rounded-xl border-spcx-400 border text-white">
         <div>
-            <a class="font-bold" href="./">Linus Torvalds</a>
+            <a class="font-bold text-blue-600" href="./">Linus Torvalds</a>
             <div>
                 Merged dev-x86 into master
             </div>
