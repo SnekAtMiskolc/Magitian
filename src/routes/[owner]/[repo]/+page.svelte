@@ -1,4 +1,8 @@
-
+<script lang="ts">
+    import Code from "../../../components/repo/Code.svelte";
+    import Tree from "../../../components/repo/Tree.svelte";
+    import Blob from "../../../components/repo/Blob.svelte";
+</script>
 
 <main>
     <!-- Repo info tab -->
@@ -16,6 +20,14 @@
             <div>
                 Merged dev-x86 into master
             </div>
+            <Code>
+                <Tree></Tree>
+                <Blob></Blob>
+                <Blob></Blob>
+                <Tree></Tree>
+                <Tree></Tree>
+                <Tree></Tree>
+            </Code>
         </div>
     </div>
 </main>
