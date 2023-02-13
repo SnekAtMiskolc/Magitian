@@ -22,8 +22,8 @@
             </div>
             <Code>
                 <Tree></Tree>
-                <Blob></Blob>
-                <Blob></Blob>
+                <Blob filename="test.c"></Blob>
+                <Blob filename="main.rs"></Blob>
                 <Tree></Tree>
                 <Tree></Tree>
                 <Tree></Tree>
